@@ -1,4 +1,4 @@
-package entity;
+package com.cuit.entity;
 
 public class User {
 

@@ -1,4 +1,4 @@
-package entity;
+package com.cuit.entity;
 
 public class Lab {
 
@@ -6,7 +6,7 @@ public class Lab {
 	private String name;
 	private String type;
 	private String belong;
-	private boolean open_or_close;
+	private int open_or_close;
 	private String device_type;
 	private String device_num;
 	
@@ -34,10 +34,10 @@ public class Lab {
 	public void setBelong(String belong) {
 		this.belong = belong;
 	}
-	public boolean isOpen_or_close() {
+	public int getOpen_or_close() {
 		return open_or_close;
 	}
-	public void setOpen_or_close(boolean open_or_close) {
+	public void setOpen_or_close(int open_or_close) {
 		this.open_or_close = open_or_close;
 	}
 	public String getDevice_type() {

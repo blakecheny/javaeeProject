@@ -1,4 +1,4 @@
-package dbconnect;
+package com.cuit.dbconnect;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -26,6 +26,7 @@ public class DBconnect {
 				properties.load(in);
 				DBconnect.ds = BasicDataSourceFactory.createDataSource(properties);
 			} catch (IOException e) {
+				System.out.println("配置文件装载出错");
 				e.printStackTrace();
 			} catch (Exception e) {
 				e.printStackTrace();

@@ -1,4 +1,4 @@
-package entity;
+package com.cuit.entity;
 
 public class Device {
 	private int uid;
@@ -29,8 +29,8 @@ public class Device {
 	public float getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
-		this.price = price;
+	public void setPrice(float f) {
+		this.price = f;
 	}
 	public String getBrand() {
 		return brand;

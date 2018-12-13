@@ -1,7 +1,7 @@
-package service;
+package com.cuit.service;
 
 public interface DeleteService {
-
+	
 	public boolean DeleteUserById(int uid);
 	public boolean DeleteDeviceById(int d_id);
 	public boolean DeleteLabById(int Lab_id);
