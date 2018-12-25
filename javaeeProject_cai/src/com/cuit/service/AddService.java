@@ -8,4 +8,3 @@ public interface AddService {
 	public boolean AddDevice(Device DEntity);
 	public boolean AddLab(Lab LEntity);
 }
- 
